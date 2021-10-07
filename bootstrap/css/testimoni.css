@@ -1,0 +1,165 @@
+section.testimoni {
+    margin-top: 118px;
+}
+
+section.testimoni .title h1 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #1A30F1;
+    text-align: center;
+}
+
+section.testimoni .title p {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #747474;
+    text-align: center;
+}
+
+section.testimoni .kartu {
+    margin-top: 58px;
+    text-align: center;
+}
+
+section.testimoni .cards {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 270px;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+section.testimoni .cards h5 {
+    margin-top: 20px;
+    font-family: 'roboto';
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+section.testimoni .cards .profile-card__overlay {
+    background: #1A30F1;
+    width: 270px;
+    height: 270px;
+}
+
+section.testimoni .cards .profile-card {
+    position: relative;
+    background: #fff;
+    margin: auto;
+    width: 260px;
+    height: 270px;
+}
+
+.item-title {
+    display: flex;
+    align-items: center;
+}
+
+section.testimoni .cards .profile-card .foto-profil {
+    margin: 22px 10px 30px 27px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+section.testimoni .cards .profile-card .foto-profil img {
+    width: 100%;
+    height: 100%;
+}
+
+section.testimoni .cards .profile-card .nama-orang h6 {
+    margin: 0;
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+section.testimoni .cards .profile-card .servis p {
+    float: left;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #E19500;
+}
+
+section.testimoni .cards .profile-card .descryption p {
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8b8b8b;
+    line-height: 105%;
+    margin: 0 26px 32px 27px;
+}
+
+.btn-seemore {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 300px;
+    color: #1A30F1;
+    border-radius: 0;
+    border: solid 1px #1A30F1;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.9s ease 0s;
+}
+
+.btn-seemore:hover {
+    color: white;
+    background: transparent;
+    border: solid 1px #1A30F1;
+    box-shadow: 0 0 0 2px rgba(76, 0, 255, 0.5);
+}
+
+.btn-seemore::before {
+    content: '';
+    background: #1A30F1;
+    height: 200%;
+    width: 100%;
+    transform: skewY(17deg);
+    position: absolute;
+    left: 0;
+    bottom: -240%;
+    z-index: -1;
+    transition: all 0.9s ease 0s;
+}
+
+.btn-seemore:hover::before {
+    bottom: -50%;
+}
+
+@media only screen and (max-width: 1200px) {
+    section.testimoni .cards {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 270px;
+        grid-gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+    section.testimoni .cards {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 270px;
+        grid-gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+}

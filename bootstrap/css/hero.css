@@ -1,0 +1,112 @@
+.title {
+    margin-top: 133px;
+}
+
+.hero .title h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #000;
+}
+
+.hero .title h2 {
+    margin-top: -20px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #000;
+}
+
+.hero .title h3 {
+    margin-top: -20px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #1A30F1;
+}
+
+p {
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #747474;
+}
+
+.btn-contact {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 300x;
+    color: #1A30F1;
+    border-radius: 0;
+    border: solid 1px #1A30F1;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.9s ease 0s;
+}
+
+.btn-contact:hover {
+    color: white;
+    background: transparent;
+    border: solid 1px #1A30F1;
+    box-shadow: 0 0 0 2px rgba(76, 0, 255, 0.5);
+}
+
+.btn-contact::before {
+    content: '';
+    background: #1A30F1;
+    height: 200%;
+    width: 100%;
+    transform: skewY(17deg);
+    position: absolute;
+    left: 0;
+    bottom: -240%;
+    z-index: -1;
+    transition: all 0.9s ease 0s;
+}
+
+.btn-contact:hover::before {
+    bottom: -50%;
+}
+
+.images {
+    margin-top: 85px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .images {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .title {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero .title h1 {
+        font-size: 52px;
+        font-weight: bold;
+        color: #000;
+    }
+    
+    .hero .title h2 {
+        margin-top: -20px;
+        font-size: 52px;
+        font-weight: bold;
+        color: #000;
+    }
+    
+    .hero .title h3 {
+        margin-top: -20px;
+        font-size: 52px;
+        font-weight: bold;
+        color: #1A30F1;
+    }
+    
+    p {
+        margin-top: 40px;
+        font-size: 8px;
+        font-weight: 300;
+        color: #747474;
+    }
+}
