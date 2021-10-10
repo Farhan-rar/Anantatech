@@ -41,17 +41,18 @@ section.product .cards h5 {
 }
 
 section.product .cards .website-dev {
-    background-image: url(/public/img/foto1.png);
+    background-image: url(../../public/img/foto1.png);
     background-size: cover;
     border-radius: 15px;
     height: 481px;
     width: 367px;
+    
 }
 
 
 
 section.product .cards .company-profile {
-    background-image: url(/public/img/foto2.png);
+    background-image: url(../../public/img/foto2.png);
     background-size: cover;
     border-radius: 15px;
     height: 481px;
@@ -59,7 +60,7 @@ section.product .cards .company-profile {
 }
 
 section.product .cards .virtual-tour {
-    background-image: url(/public/img/foto3.png);
+    background-image: url(../../public/img/foto3.png);
     background-size: cover;
     border-radius: 15px;
     height: 481px;
@@ -139,21 +140,21 @@ section.product .cards .btn-more:hover {
     }
 
     section.product .cards .website-dev {
-        background-image: url(/public/img/foto1.png);
+        background-image: url(../../public/img/foto1.png);
         border-radius: 15px;
         height: 481px;
         width: 300px;
     }
     
     section.product .cards .company-profile {
-        background-image: url(/public/img/foto2.png);
+        background-image: url(../../public/img/foto2.png);
         border-radius: 15px;
         height: 481px;
         width: 300px;
     }
     
     section.product .cards .virtual-tour {
-        background-image: url(/public/img/foto3.png);
+        background-image: url(../../public/img/foto3.png);
         border-radius: 15px;
         height: 481px;
         width: 300px;
